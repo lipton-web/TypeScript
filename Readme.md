@@ -12,6 +12,8 @@
 컴파일 하지 않고 TS로 실행하는 법  
 `yarn run ts-node ./src/practice.ts`
 
+`tsc -w` 입력하면 js로 자동변환
+
 ---
 
 타입스크립트 컴파일러 실행  
@@ -24,7 +26,7 @@ es6 형식으로 바꾸기
 promise 사용하기  
 `tsc hello.ts --lib es5,es2015.promise,es2015.iterable,dom`
 
-`tsc -w` 입력하면 js로 자동변환
+
 
 `tsc hello.ts --target es6 --lib es2015,dom --module commonjs --showConfig`
 --target es6로 컴파일 하면 노드에서는 돌아가지 않음.  
