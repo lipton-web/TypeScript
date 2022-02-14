@@ -1,3 +1,5 @@
-type Type = string | number;
+// type Type = string | number;
 
-let 이름: Type = "kim"
+let name: string = "kim";
+let age: number = 32;
+let marryed: boolean = false;
