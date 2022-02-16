@@ -1,5 +1,3 @@
-// type Type = string | number;
-
 let 이름 = "kim";
 let 나이: number = 50;
 let marryed: boolean = false;

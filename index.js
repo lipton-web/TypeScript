@@ -1,4 +1,3 @@
-// type Type = string | number;
 var 이름 = "kim";
 var 나이 = 50;
 var marryed = false;
