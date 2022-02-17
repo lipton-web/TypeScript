@@ -28,5 +28,3 @@ var 학교 = {
 학교.score[4] = false;
 학교.friend = ['Lee', 학교.teacher];
 var bb = { a: 1, b: 2 };
-// let aaa = bb -1
-console.log(bb.a);

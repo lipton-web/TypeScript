@@ -41,6 +41,3 @@ let 학교: {
 학교.friend = ['Lee' , 학교.teacher]
 
 let bb: unknown = {a:1, b:2}
-// let aaa = bb -1
-
-console.log(bb.a)

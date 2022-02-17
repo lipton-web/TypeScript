@@ -25,5 +25,8 @@ function marry(pay, home, karma) {
     if (pay + homeScore + karmaScore >= 600) {
         return "결혼가능";
     }
+    else {
+        return null;
+    }
 }
-marry(700, false, '중');
+console.log(marry(300, false, '중'));
