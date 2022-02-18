@@ -12,6 +12,8 @@
 	"compilerOptions": {
 		"target": "es5",
 		"module": "commonjs",
+		// null 타입이 들어올 때 엄격하게 체크
+		"strictNullChecks": true,
 		// // 경로 src로 맞춘 것
 		// "rootDir": "src",
 		// //  컴파일 된 파일들 만들어지는 경로
