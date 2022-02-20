@@ -22,3 +22,46 @@ let 사람1 = new Personal("kim");
 let 사람2 = new Personal("park");
 console.log(사람2)
 사람1. 함수("하이")
+
+
+// Q1
+class Car {
+	model: string
+	price: number
+	constructor(a: string, b:number) {
+		this.model = a;
+		this.price = b;
+	}
+	tax(): number {
+		return this.price/10
+	}
+}
+
+let car1 = new Car("소나타", 3000)
+console.log(car1)
+console.log(car1.tax())
+
+//Q2
+class Word {
+	num;
+	str;
+	constructor(...param){
+		let nums: number[] = [];
+		let strs: string[] = [];
+
+		param.forEach((i)=>{
+			if(typeof i === "string") {
+				strs.push(i)
+			} else {
+				nums.push(i)
+			}
+		})
+
+		this.num = nums;
+		this.str = strs;
+	}
+}
+
+let obj = new Word('kim', 3, 5, 'park');
+console.log(obj.num) //[3,5]
+console.log(obj.str) //['kim', 'park'] 
