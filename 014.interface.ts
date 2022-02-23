@@ -45,3 +45,11 @@ interface Student2 {
 interface Teacher extends Student {
 	age : number
 }
+
+// Q1
+interface Product {
+  brand : string, 
+  serialNumber : number, 
+  model : string[]
+}
+let products: Product = { brand:"Samsung", serialNumber: 1360, model : ["TV", "phone"] }
